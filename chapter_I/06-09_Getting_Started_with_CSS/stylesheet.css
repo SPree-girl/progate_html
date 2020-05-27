@@ -1,17 +1,22 @@
 h1 {
-    color: #ff0000;
-    /* Change the font-size to 40px */
-    font-size: 40px;
+    color: #e6855e;
+    font-size: 30px;
+    /* Change the background-color to #f3f372 */
+    background-color: #f3f372;
 
-    /* Change the font-family to serif */
-    font-family: 'Arial Narrow';
+    /* Change the height to 80px */
+    height: 80px;
+
+    /* Change the width to 200px */
+    width: 200px
+
 }
 
-p {
-    color: #0000ff;
-    /* Change the font-size to 20px */
-    font-size: 20px;
+img {
+    /* Change the height to 50px */
+    height: 250px;
 
-    /* Change the font-family to "Lucida Grande" */
-    font-family: "Lucida Grande";
+    /* Change the width to 70px */
+    width: 400px;
+
 }
