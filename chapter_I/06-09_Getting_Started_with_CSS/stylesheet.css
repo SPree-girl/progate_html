@@ -1,22 +1,8 @@
-h1 {
-    color: #e6855e;
-    font-size: 30px;
-    /* Change the background-color to #f3f372 */
-    background-color: #f3f372;
-
-    /* Change the height to 80px */
-    height: 80px;
-
-    /* Change the width to 200px */
-    width: 200px
-
+li {
+    color: #444;
 }
 
-img {
-    /* Change the height to 50px */
-    height: 250px;
-
-    /* Change the width to 70px */
-    width: 400px;
-
+/* Change the color of "selected" to #ff0000 */
+.selected {
+    color: #ff0000;
 }
