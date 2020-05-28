@@ -42,7 +42,7 @@ li {
 }
 
 /* Change the color of <span> tags within copy-container */
-span {
+.copy-container span {
     color: #ff4a4a;
 }
 
