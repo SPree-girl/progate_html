@@ -39,6 +39,21 @@ li {
     color: #ff4a4a;
 }
 
+/* Change the height of contents to 500px */
+.contents {
+    height: 500px;
+}
+
+/* Change the border-bottom property of section-title */
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+}
+
+/* Change contents-item's float property to left */
+.contents-item {
+    float: left;
+}
+
 .footer {
     background-color: #2f5167;
     color: #fff;
