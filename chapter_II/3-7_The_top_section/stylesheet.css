@@ -18,6 +18,8 @@ a {
     background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
     background-size: cover;
     color: white;
+    /* Change the text-align property to center */
+    text-align: center;
 }
 
 .top-wrapper h1 {
@@ -25,43 +27,47 @@ a {
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .top-wrapper p {
     opacity: 0.7;
     margin-bottom: 3px;
+    text-align: center;
 }
 
-/* Add CSS for btn */
 .btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 12px 24px;
     color: white;
     display: inline-block;
     opacity: 0.8;
+    /* Change the border-radius to 4px */
+    border-radius: 4px;
 }
-/* Add CSS for signup */
+
+/* Add CSS for btn on hover */
+.btn {
+    opacity: 1;
+}
+
+
 .signup {
     background-color: #239b76;
 }
-/** Add CSS for facebook */
+
 .facebook {
     background-color: #3b5998;
+    margin-right: 10px;
 }
-/* Add CSS for twitter */
+
 .twitter {
     background-color: #55acee;
 }
-/* Add CSS for btn-wrapper */
+
 .btn-wrapper {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0;
 }
-/* Add CSS for <p> tags inside btn-wrapper */
+
 .btn-wrapper p {
-    margin: 10px 0px 10px 0px;
-}
-.facebook {
-    margin-right: 10px;
+    margin: 10px 0;
 }
