@@ -1,0 +1,113 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+li {
+/*что бы небыло точек в списке*/
+    list-style: none;
+}
+/* Write your code below */
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+.header-logo {
+    /*размер шрифта*/
+    font-size: 36px;
+    /*отступы списка друг от друга*/
+    padding: 20px 40px;
+    /*расположение на странице*/
+    float: left;
+}
+.header-list li {
+    /*расположение на странице (по левой стороне друг за другом*/
+    float: left;
+    /*отступы списка друг от друга*/
+    padding: 33px 20px;
+}
+/*общий отступ текста в главном заголовке*/
+.main {
+    padding: 100px 80px;
+}
+/*свойства конкретно к каждому h - строчке*/
+.copy-container h1 {
+    font-size: 140px;
+}
+.copy-container h2 {
+    font-size: 60px;
+}
+/*выделение точки для придания ей цвета*/
+.copy-container span {
+    color: #ff4a4a;
+}
+/*придание свойств общему блоку contents c картиночками*/
+.contents {
+    padding: 0px 80px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+/*придание свойств заголовочку*/
+.section-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #dee7ec;
+}
+/*придание свойств каждой картиночке*/
+.contents-item {
+    float: left;
+    margin-right: 40px;
+}
+/*придание свойств тексту под картиночкой*/
+.contents-item p {
+    margin-top: 30px;
+    font-size: 24px;
+}
+.contact-form {
+    padding: 0px 80px;
+    margin-bottom: 100px;
+}
+/*свойста input и textarea*/
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+/*придание свойств строке input с текстовым сообщением send*/
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;}
+
+.footer-logo {
+    /*размер шрифта*/
+    font-size: 32px;
+    /*расположение на странице*/
+    float: left;
+}
+.footer-list {
+    /*расположение на странице (по левой стороне друг за другом*/
+    float: right;
+}
+.footer-list li {
+    /*отступы списка друг от друга*/
+    padding-bottom: 20px;
+}

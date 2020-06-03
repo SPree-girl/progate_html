@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<!--this is header parametrs-->
+<!--зеленая строчка с самого верха нашей страницы-->
+<div class="header">
+    <div class="header-logo">Progate</div>
+        <div class="header-list">
+            <ul>
+                <li>About</li>
+                <li>Lessons</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+</div>
+
+<!--this is main parametrs-->
+<!--то что идет ниже - основной заголовок это класс main-->
+<div class="main">
+<!--создать класс copy-container чтобы придать свойста тексту в этом классе-->
+    <div class="copy-container">
+<!--        span для выделения конкретного элемента, в нашем случае точка-->
+        <h1>HELLO WORLD<span>.</span></h1>
+        <h2>Let's learn to code</h2>
+    </div>
+</div>
+
+
+<!--this is the lessons-->
+<!--блок с содержанием заголовка Lessons и картинками с подписями-->
+<div class="contents">
+<!--мини заголовочек к картинкам-->
+    <h3 class="section-title">Lessons</h3>
+<!--создание общего класса contents-item для всех картиночек и добавление отдельно в каждый div этот класс свою картинку и текст-->
+    <div class="contents-item">
+        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+        <p>HTML & CSS</p>
+    </div>
+
+    <div class="contents-item">
+        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+        <p>PHP</p>
+    </div>
+
+    <div class="contents-item">
+        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+        <p>Ruby</p>
+    </div>
+
+    <div class="contents-item">
+        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+        <p>Swift</p>
+    </div>
+</div>
+
+<div class="contact-form">
+    <h3 class="section-title">Contact us</h3>
+    <p>Email (Required)</p>
+<!-- Поле для однострочного ввода текста   -->
+    <input>
+    <p>Message (Required)</p>
+<!--  Поле для ввода многострочного текста  -->
+    <textarea></textarea>
+    <p>* Required fields must be filled</p>
+<!--  Надо разобрать, почему тут добавляется тип и значение, это поле с текстом send-->
+    <input class="contact-submit" type="submit" value="send">
+</div>
+
+<div class="footer">
+    <div class="footer-logo">Progate</div>
+    <div class="footer-list">
+        <ul>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+
+</html>
